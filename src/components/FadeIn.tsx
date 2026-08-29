@@ -20,10 +20,9 @@ export const FadeIn: React.FC<FadeInProps> = ({
   className = '',
   as = 'div'
 }) => {
-  const Component = motion[as as keyof typeof motion] || motion.div;
+  const Component = (motion[as as keyof typeof motion] || motion.div) as any;
 
   return (
-    // @ts-ignore
     <Component
       initial={{ opacity: 0, x, y }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
