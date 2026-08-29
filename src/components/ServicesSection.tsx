@@ -10,33 +10,33 @@ interface ServiceItem {
 const servicesData: ServiceItem[] = [
   {
     number: '01',
-    title: '3D Modeling',
+    title: 'Mobile App Development',
     description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
+      'Building cross-platform mobile applications using Flutter & Dart with custom UI components, REST API integration, and clean app architecture.',
   },
   {
     number: '02',
-    title: 'Rendering',
+    title: 'Web Development',
     description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
+      'Developing responsive, modern web pages and applications using HTML5, CSS3, JavaScript, Bootstrap, React.js, Next.js, and PHP.',
   },
   {
     number: '03',
-    title: 'Motion Design',
+    title: 'REST API & Backend Integration',
     description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
+      'Integrating REST APIs, managing database operations with MySQL and MongoDB, and handling backend connectivity with Python, Django, and PHP.',
   },
   {
     number: '04',
-    title: 'Branding',
+    title: 'Responsive Web Design',
     description:
-      'Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence.',
+      'Designing mobile-first, user-friendly layouts and reusable UI components that perform seamlessly across all device sizes.',
   },
   {
     number: '05',
-    title: 'Web Design',
+    title: 'Website Optimization & Maintenance',
     description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
+      'Improving website responsiveness, performance tuning, version control with Git/GitHub, bug fixing, and continuous project updates.',
   },
 ];
 

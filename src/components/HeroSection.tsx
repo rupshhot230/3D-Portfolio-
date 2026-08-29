@@ -31,8 +31,8 @@ export const HeroSection: React.FC = () => {
       {/* Main Heading Container */}
       <div className="relative w-full flex-1 flex flex-col justify-center items-center overflow-hidden">
         <FadeIn delay={0.15} y={40} className="w-full overflow-hidden text-center z-0">
-          <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5 select-none">
-            Hi, i&apos;m jack
+          <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[11vw] sm:text-[12.5vw] md:text-[13.5vw] lg:text-[14.5vw] mt-6 sm:mt-4 md:-mt-5 select-none">
+            Hi, i&apos;m rupesh
           </h1>
         </FadeIn>
       </div>
@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
         >
           <img
             src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
-            alt="Jack 3D Portrait"
+            alt="Rupesh Pal Portrait"
             className="w-full h-auto object-contain drop-shadow-2xl select-none"
             draggable={false}
           />
@@ -64,9 +64,9 @@ export const HeroSection: React.FC = () => {
         <FadeIn delay={0.35} y={20}>
           <p
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
-            className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
+            className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[200px] sm:max-w-[280px] md:max-w-[340px]"
           >
-            a 3d creator driven by crafting striking and unforgettable projects
+            Junior Mobile & Web Developer crafting clean, responsive, high-quality digital experiences
           </p>
         </FadeIn>
 

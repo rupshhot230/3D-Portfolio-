@@ -31,11 +31,19 @@ export function App() {
           Let&apos;s Work Together
         </h3>
         <p className="text-[#D7E2EA] font-light text-sm sm:text-base max-w-md opacity-80">
-          Have an exciting project or idea? Reach out and let&apos;s build something striking.
+          Have an exciting web or mobile project? Reach out and let&apos;s build high-quality digital solutions together.
         </p>
+        <div className="flex flex-wrap justify-center items-center gap-6 my-2 text-sm">
+          <a href="mailto:rupeshhot230@gmail.com" className="hover:text-[#B600A8] transition-colors flex items-center gap-2">
+            ✉️ rupeshhot230@gmail.com
+          </a>
+          <a href="tel:9696606527" className="hover:text-[#B600A8] transition-colors flex items-center gap-2">
+            📞 9696606527
+          </a>
+        </div>
         <ContactButton />
-        <div className="pt-8 text-xs text-[#D7E2EA]/50 uppercase tracking-widest">
-          © {new Date().getFullYear()} Jack — 3D Creator. All rights reserved.
+        <div className="pt-6 text-xs text-[#D7E2EA]/50 uppercase tracking-widest">
+          © {new Date().getFullYear()} Rupesh Pal — Junior Mobile & Web Developer. All rights reserved.
         </div>
       </footer>
     </div>
